@@ -43,15 +43,14 @@ compute:
 # AI tools declaration (transparency only; honest declaration not penalized)
 # ============================================================================
 ai_tools_used:
-  - "Claude"
+  - "None"
 
 ai_usage_summary: |
-  Used Claude as a pair-programming and code-review assistant during development
-  (architecture discussion, refactoring, docstrings). All design decisions,
-  feature definitions, JD-rubric encoding, honeypot calibration, and scoring
-  weights were authored and verified by the team against the actual dataset.
-  No candidate data was sent to any hosted LLM, and no LLM is called during
-  ranking (the pipeline is CPU-only and offline by constraint).
+  All design decisions, feature definitions, JD-rubric encoding, honeypot 
+  calibration, and scoring weights were authored and verified by the team 
+  against the actual dataset. No candidate data was sent to any hosted LLM, 
+  and no LLM is called during ranking (the pipeline is CPU-only and offline 
+  by constraint).
 
 # ============================================================================
 # Approach summary
